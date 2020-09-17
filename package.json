@@ -1,0 +1,27 @@
+{
+  "name": "helloaction",
+  "version": "1.0.0",
+  "description": "A Hello Action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidfekke/helloaction.git"
+  },
+  "keywords": [
+    "github",
+    "action"
+  ],
+  "author": "David Fekke <david@fekke.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/davidfekke/helloaction/issues"
+  },
+  "homepage": "https://github.com/davidfekke/helloaction#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "@actions/github": "^4.0.0"
+  }
+}
